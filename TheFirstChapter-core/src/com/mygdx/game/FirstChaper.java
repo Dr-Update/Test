@@ -35,7 +35,6 @@ public class FirstChaper extends ApplicationAdapter {
 		width = Gdx.graphics.getWidth();
 		height = Gdx.graphics.getHeight();
 		
-		
 		//Camera
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false,width,height);
