@@ -13,9 +13,9 @@ public class GameObject {
 	private SpriteBatch spriteBatchHandle;
 	
 	
-	public GameObject(Texture tex, SpriteBatch batch, float posX, float posY) {
+	public GameObject(String texPath, SpriteBatch batch, float posX, float posY) {
 		spriteBatchHandle = batch;
-		texture = tex;
+		texture = new Texture (texPath);
 		x = posX;
 		y = posY;
 	}
